@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey", "Hello", "Good day", "Hey", "Hi"],
+     "responses": ["Hi", "Hola"]
+    },
+    {"tag": "help",
+     "patterns": ["how can you help me"],
+     "responses": ["Welcome to Mabzone chatbot, how can I help you"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Sayoonara", "Peace out"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+      "responses": ["I am Mabi", "My name is Mabi", "You can call me MB for short", "I am Mabi, my friends call me MB", "Mabi is my name"]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can tell you about Services provided by mabzone"]
+      },
+     {"tag": "mabzone",
+      "patterns": ["Tell me about mabzone technologies", "What can you tell me about mabzone", "mabzone", "Tell me about mabzone", "What about mabzone", "What do you know about mabzone", "Tell me more about mabzone", "What can you tell me about mabzone", "Tell me about mabzone", "What about mabzone", "What do you know about mabzone", "Tell me more about mabzone"],
+      "responses": ["Welcome to MABZONE, a leading software development company dedicated to delivering tailor-made technology solutions to businesses worldwide. Specializing in mobile and web-based application development. At MABZONE, we seamlessly blend technological expertise, specific domain experience, and an unwavering passion for excellence to craft enterprise-grade solutions."]
+      },
+      {"tag": "mabzone_technologies",
+       "patterns": ["What technologies mabzone giving", "mabzone technologies", "technologies of mabzone", "company technologies", "In which technologies mabzone is working", "all technologies of mabzone"],
+       "responses": [
+         "Microsoft Azure, Microsoft .NET, Mearn Stack, Python"]
+      },
+      {"tag": "mabzone_services",
+      "patterns": ["What services mabzone giving", "mabzone services", "services of mabzone", "company services", "In which technologies mabzone is working", "all services of mabzone"],
+      "responses": ["Embedded Software Development, Artificial Intelligence, Web App Development, UI & UX Design, QA Testing Services"]
+      },
+      {"tag": "contact",
+      "patterns": ["How to contact you", "contact", "give your contact", "company contact"],
+      "responses": ["+91-9878772492"]
+      }
+  ]
+}
